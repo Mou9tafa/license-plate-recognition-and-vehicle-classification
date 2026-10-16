@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ultralytics / Gradio runtime output
+runs/
+flagged/
+*.log
+
+# Model weights: committed on purpose if small (< 100 MB).
+# If your best.pt is larger than 100 MB, use Git LFS or a GitHub Release
+# and uncomment the next line.
+# models/*.pt
